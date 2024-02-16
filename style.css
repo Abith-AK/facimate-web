@@ -2,6 +2,7 @@
   --white: #fff;
   --dark: #25283e;
   --black: #000;
+  --theme:#922c88;
 }
 body {
   height: 100%;
@@ -30,7 +31,6 @@ body {
 }
 .navbar {
   justify-content: end;
-  left: -40px;
 }
 .navbar li a {
   font-size: 1.125rem;
@@ -779,6 +779,20 @@ label#filt-yearly {
 }
 .navbar-toggler {
   display: none;
+}
+.navbar-toggler:hover,.navbar-toggler:focus{
+  background-color: white !important;
+  border-color: var(--theme) !important;
+  border: 2px solid var(--theme);
+  box-shadow: none !important;
+}
+.navbar-toggler:active{
+  background-color: var(--theme) !important;
+  border-color: var(--theme) !important;
+  color: var(--white);
+}
+.navbar-nav{
+  background: white;
 }
 .word-size1 {
   display: none;
