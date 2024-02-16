@@ -814,9 +814,17 @@ label#filt-yearly {
   width: 44px;
   height: 49px;
 }
-.display-gap {
-  gap: 62px;
-  display: flex;
+.contant-card {
+  background: linear-gradient(90deg, #c650ba 0%, #922c88 60%, white 20%);
+  border-radius: 20px 0 0 20px;
+  font-size: 16px;
+  color: var(--white);
+  font-weight: 900;
+}
+.form-card{
+  background-color: white;
+  box-shadow: 5px 4px 23.8px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 25px 25px 0px;
 }
 @media only screen and (min-width: 1150px) and (max-width: 1400px) {
   /*125%*/
@@ -1953,3 +1961,8 @@ label#filt-yearly {
     background: linear-gradient(155.29deg, #922c88 -2.41%, #c650ba 65.79%);
   }
 }
+@media only screen and (min-width: 825px) and (max-width:992px){
+  #contact{
+    height:100%;
+   }
+  }
