@@ -1171,7 +1171,6 @@ label#filt-yearly {
     width: 27rem;
     padding: 0.5rem;
     height: 3.5rem;
-    margin-top: 66px;
   }
   .button-btn2 {
     padding: 12px 28px;
@@ -1193,7 +1192,6 @@ label#filt-yearly {
   }
   input[type="text"],
   textarea {
-    width: 15rem;
     font-size: 12px;
   }
   .card3 {
@@ -1784,7 +1782,6 @@ label#filt-yearly {
     width: 19rem;
     height: 3rem;
     margin-left: 20px;
-    margin-top: -22px;
   }
   .input-font {
     font-size: 11px;
@@ -1911,7 +1908,7 @@ label#filt-yearly {
   }
 }
 .contant-card {
-  background-image: linear-gradient(to right, #922c88 70%, white 30%);
+  background: linear-gradient(90deg, #c650ba 0%, #922c88 60%, white 20%);
   border-radius: 20px 0 0 20px;
 }
 @media only screen and (max-width: 550px) {
@@ -1927,7 +1924,6 @@ label#filt-yearly {
   }
   .card4 {
     margin-left: 0px;
-    margin-top: 0px;
   }
   .textgap2 {
     font-size: 15px;
