@@ -292,7 +292,6 @@ input[type="text"],
 textarea {
   border-radius: 12px;
   background: #eceef6;
-  width: 22rem;
   height: 2rem;
   padding-left: 38px;
   border: none;
@@ -1195,7 +1194,6 @@ label#filt-yearly {
   input[type="text"],
   textarea {
     width: 15rem;
-    padding-left: 28px;
     font-size: 12px;
   }
   .card3 {
@@ -1753,11 +1751,9 @@ label#filt-yearly {
   }
   input[type="text"] {
     font-size: 12px;
-    width: 14rem;
     height: 2rem;
   }
   textarea {
-    width: 14rem;
     height: 10rem;
   }
   .margin6 {
@@ -1797,11 +1793,6 @@ label#filt-yearly {
     width: 5rem;
     height: 2rem;
     font-size: 12px;
-  }
-  .parent-container {
-    position: absolute;
-    top: 974px;
-    height: 6%;
   }
   .word-size1 {
     display: block;
@@ -1919,7 +1910,10 @@ label#filt-yearly {
     border-bottom: none;
   }
 }
-
+.contant-card {
+  background-image: linear-gradient(to right, #922c88 70%, white 30%);
+  border-radius: 20px 0 0 20px;
+}
 @media only screen and (max-width: 550px) {
   .card1 {
     height: 31rem;
@@ -1938,7 +1932,14 @@ label#filt-yearly {
   .textgap2 {
     font-size: 15px;
   }
-  .textgap,.textgap1{
+  .textgap,
+  .textgap1 {
     font-size: 15px;
+  }
+  #contact {
+    height: 100%;
+  }
+  .contant-card {
+    background: linear-gradient(155.29deg, #922c88 -2.41%, #c650ba 65.79%);
   }
 }
