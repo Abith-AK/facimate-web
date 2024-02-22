@@ -291,12 +291,11 @@ section {
 input[type="text"],
 textarea {
   border-radius: 12px;
-  background: #eceef6;
   height: 2rem;
   padding-left: 38px;
   border: none;
   color: #263238;
-  font-family: Poppins;
+  font-family: Poppins,sans-serif;
   font-size: 12px;
   font-style: italic;
   font-weight: 300;
@@ -643,11 +642,16 @@ label#filt-yearly {
 }
 .input-font {
   color: var(--dark2, #4f4e5b);
-  font-family: Poppins;
+  font-family: Poppins,sans-serif;
   font-size: 14px;
   font-style: italic;
   font-weight: 300;
   letter-spacing: 0.28px;
+  width: 100%;
+  background: none;
+}
+.input-text{
+  background: #eceef6;
 }
 .parent-container {
   background: #922c88;
@@ -1044,7 +1048,7 @@ label#filt-yearly {
     margin-left: -34px;
   }
 }
-@media only screen and (min-width: 825px) and (max-width: 1149px) {
+@media only screen and (min-width: 825px) and (max-width: 1200px) {
   /*175%*/
   .parent-container {
     top: 746px;
@@ -1961,8 +1965,18 @@ label#filt-yearly {
     background: linear-gradient(155.29deg, #922c88 -2.41%, #c650ba 65.79%);
   }
 }
-@media only screen and (min-width: 825px) and (max-width:992px){
+@media only screen and (min-width: 550px) and (max-width:992px){
   #contact{
     height:100%;
    }
   }
+  @media only screen and (min-width: 550px) and (max-width:577px){
+  .contant-card {
+    background: linear-gradient(90deg, #c650ba 0%, #922c88 60%);
+  }
+}
+@media only screen and (min-width: 825px) and (max-width:1200px){
+     #collapseExample{
+      display: none;
+     }
+}
