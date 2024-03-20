@@ -515,11 +515,13 @@ label#filt-yearly {
 .newstyle {
   display: flex;
   width: 490px;
-  height: 640px;
+  height: 529px;
   padding: 55px 45px;
   flex-direction: column;
   align-items: center;
   gap: 46px;
+  position: relative;
+  top:87px;
 }
 .reflect1 {
   border-radius: 115px;
@@ -554,7 +556,7 @@ label#filt-yearly {
   line-height: normal;
   letter-spacing: 0.72px;
   position: absolute;
-  top: 63px;
+  top: 56px;
 }
 .button1 {
   width: 102px;
@@ -598,7 +600,7 @@ label#filt-yearly {
   letter-spacing: 0.48px;
   list-style-type: none;
   position: relative;
-  top: 17px;
+  top: -4px;
 }
 .buttongap {
   position: relative;
@@ -841,6 +843,24 @@ label#filt-yearly {
   position: relative;
   right:22px;
 }
+.detailStyle{
+  height: 76px;
+  position: relative;
+  top: 81px;
+}
+.contactStyle{
+  font-size: 23px;
+  color: #922c88;
+  font-family: poppins;
+}
+.reflect2{
+  border-radius: 22px;
+  border-top: 2px solid var(--facimate, #922c88);
+  border-right: 2px solid var(--facimate, #922c88);
+  border-bottom: 1px solid var(--facimate, #922c88);
+  border-left: 6px solid var(--facimate, #922c88);
+}
+
 @media only screen and (min-width: 1150px) and (max-width: 1400px) {
   /*125%*/
   .navbar-content .navbar-nav.nav-dropdown {
@@ -1310,13 +1330,13 @@ label#filt-yearly {
     right: 168px;
   }
   .flexiblearea1 ul li {
-    top: 22px;
+    top: -1px;
     padding-right: 21px;
     padding-left: 0px;
   }
   .flexiblearea li {
     position: relative;
-    top: 8px;
+    top: -4px;
     padding-right: 72px;
   }
   .span-label {
@@ -1333,13 +1353,16 @@ label#filt-yearly {
     font-size: 14px;
   }
   .line {
-    top: 38px;
+    top: 51px;
     font-size: 26px;
   }
   .newstyle {
     width: 336px;
-    height: 530px;
+    height: 440px;
     padding: 55px 45px;
+  }
+  .contactStyle {
+    font-size: 19px;
   }
 
   /*section 1*/
@@ -1463,7 +1486,7 @@ label#filt-yearly {
     top: 0px;
   }
   .line-gap {
-    top: 8px;
+    top: -15px;
   }
   .flexiblearea li a,
   .flexiblearea1 ul li a {
@@ -1520,7 +1543,7 @@ label#filt-yearly {
     border-radius: 91px;
   }
   .line {
-    top: 12px;
+    top: 54px;
   }
   .textcolor1 {
     right: 170px;
@@ -1699,12 +1722,15 @@ label#filt-yearly {
   }
   .newstyle {
     width: 325px;
-    height: 355px;
+    height: 282px;
+  }
+  .contactStyle {
+    font-size: 17px;
   }
   .line-gap {
     font-size: 24px;
     position: relative;
-    top: 16px;
+    top: 3px;
   }
   .flexiblearea li {
     position: relative;
